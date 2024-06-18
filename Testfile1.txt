@@ -1,0 +1,4 @@
+<<<<<<<< Head >>>>>>>>>>
+Archivo ejemplo
+Aqui empieza el codigo
+<<<<<<<< Fin >>>>>>>>>>>
