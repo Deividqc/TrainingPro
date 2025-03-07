@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+    tools{
+        gradle "Gradle"
+    }
+}
+
+stages{
+    stage("Tareas de limpieza"){
+        steps{
+            'https://github.com/Deividqc/TrainingPro.git'
+            sh 'gradle clean'
+        }
+    }
+    stage("Imprimir resultados"){
+        steps{
+            echo "Soy un Stage aparte"
+        }
+    }
+}
