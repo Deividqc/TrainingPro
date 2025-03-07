@@ -8,7 +8,7 @@ pipeline {
 stages{
     stage("Tareas de limpieza"){
         steps{
-            'https://github.com/Deividqc/TrainingPro.git'
+            git 'https://github.com/Deividqc/TrainingPro.git'
             sh 'gradle clean'
         }
     }
